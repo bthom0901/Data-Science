@@ -8,8 +8,9 @@
 - Tableau
 - Excel
 
-# Linear Regression
+# Tools & Applications
 
+- Linear Regression
 {![image](https://github.com/user-attachments/assets/223648e7-405d-432d-b639-ea0eb5541ae9)}
 
 
