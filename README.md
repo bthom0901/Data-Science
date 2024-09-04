@@ -30,12 +30,12 @@ As the current data process involves extracting data from 2 different data tools
 
 
 ### Key Objectives
-•	Recording the current reporting manual process to replicate and match monthly figures.
-•	Documenting previous monthly reports from the relevant stakeholders.
-•	Extract, Transform, Create & Distribute the data fields required from the different data sources.
-•	Structuring the data through RStudio. 
-•	Creating various visualisations of the data through the main data tool – Tableau. 
-•	Understanding how valuable this insight will be for the business in regard to financial gain but also being able to enhance the report in the future by applying more granular details within the data sources.
+- Recording the current reporting manual process to replicate and match monthly figures.
+-	Documenting previous monthly reports from the relevant stakeholders.
+- Extract, Transform, Create & Distribute the data fields required from the different data sources.
+- Structuring the data through RStudio. 
+- Creating various visualisations of the data through the main data tool – Tableau. 
+- Understanding how valuable this insight will be for the business in regard to financial gain but also being able to enhance the report in the future by applying more granular details within the data sources.
 
 
 ### Data Collection
