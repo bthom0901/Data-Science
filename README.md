@@ -10,7 +10,7 @@
 
 # URL image link
 
-![Image URL]{![image](https://github.com/user-attachments/assets/223648e7-405d-432d-b639-ea0eb5541ae9)}
+{![image](https://github.com/user-attachments/assets/223648e7-405d-432d-b639-ea0eb5541ae9)}
 
 
 ## Projects
