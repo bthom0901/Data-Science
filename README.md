@@ -10,7 +10,7 @@
 
 # URL image link
 
-![Image URL]{https://www.google.com/imgres?q=data%20analytics%20linear%20regression&imgurl=https%3A%2F%2Fsubstackcdn.com%2Fimage%2Ffetch%2Ff_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Fhttps%253A%252F%252Fsubstack-post-media.s3.amazonaws.com%252Fpublic%252Fimages%252F62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644.png&imgrefurl=https%3A%2F%2Fwww.lennysnewsletter.com%2Fp%2Flinear-regression-and-correlation-analysis&docid=8EyjDIkFfgKlRM&tbnid=bd8k4DJQzeO3jM&vet=12ahUKEwjW1enHrqmIAxUuVUEAHRZqBU8QM3oECB0QAA..i&w=1042&h=644&hcb=2&ved=2ahUKEwjW1enHrqmIAxUuVUEAHRZqBU8QM3oECB0QAA}
+![Image URL]{[https://www.google.com/imgres?q=data%20analytics%20linear%20regression&imgurl=https%3A%2F%2Fsubstackcdn.com%2Fimage%2Ffetch%2Ff_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep%2Fhttps%253A%252F%252Fsubstack-post-media.s3.amazonaws.com%252Fpublic%252Fimages%252F62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644.png&imgrefurl=https%3A%2F%2Fwww.lennysnewsletter.com%2Fp%2Flinear-regression-and-correlation-analysis&docid=8EyjDIkFfgKlRM&tbnid=bd8k4DJQzeO3jM&vet=12ahUKEwjW1enHrqmIAxUuVUEAHRZqBU8QM3oECB0QAA..i&w=1042&h=644&hcb=2&ved=2ahUKEwjW1enHrqmIAxUuVUEAHRZqBU8QM3oECB0QAA](https://www.google.com/imgres?q=data%20analytics%20linear%20regression&imgurl=https%3A%2F%2Fwww.w3schools.com%2Fdatascience%2Fimg_least_square.png&imgrefurl=https%3A%2F%2Fwww.w3schools.com%2Fdatascience%2Fds_linear_regression.asp&docid=F33oRabsgz_b6M&tbnid=AhUmSuKz95EwfM&vet=12ahUKEwjW1enHrqmIAxUuVUEAHRZqBU8QM3oECBgQAA..i&w=644&h=488&hcb=2&ved=2ahUKEwjW1enHrqmIAxUuVUEAHRZqBU8QM3oECBgQAA)}
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
