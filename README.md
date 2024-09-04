@@ -1,6 +1,7 @@
-# Bethany Thomas-Smyth - Data Science Proessional Practice
+# Bethany Thomas-Smyth - Data Science Professional Practice
 
-#### Technical Skills: RStudio, SQL
+#### Manual Extraction and Development of Pre-Made Reports to Migrate into Data Tool
+
 
 **Tools & Applications**
 - RStudio
@@ -10,64 +11,34 @@
 
 ## Data Science Project
 ### Executive Summary
-Within this project, the key challenges involved working with no data warehouses, unstructured data, getting data from multiple sources which are unreliable data sources. 
-Once the reporting has been created, it required communication of those results to non-technical stakeholders from different areas of the business to provide useful insight to each stakeholder.
+This project delves into the requirements and process to create a data source within Tableau to create key point analysis with data visualisations, these will be used around the business to make key decisions on performance and to align against forecast and budget figures. The current process is very manual which is why this project will require a few problem-solving tasks to create an output file which will feed to the data source from various premade reports in excel format.
+This new data source will be critical to the business as it will be used to create various dashboards which will help enhance key decisions and influence sale decisions.
 
 
-### Project Background
-This project will provide an indication into how the businesses customers are utilising their accounts, currently at NextGear Capital there is just over 1,300 active customers who are all motor industry dealers. 
-These dealers have an NGC (NextGear Capital) account, which gives them access to a credit limit that allows them to purchase vehicles for their business. Each dealer will have their own set credit limit, in order to work out how much they are utilising their account would involve having the credit limit figure and the AR (Average Receivables). 
-Currently the business has a monthly view of every dealer’s utilisation, but this is a manual process and only provides a snapshot of that point in time it was created.
-As the current data process involves extracting data from 2 different data tools – Salesforce & Sopra into an excel spreadsheet, I am wanting to make this new process as automated as possible and provide a daily utilisation view of these dealers, as this will allow the business to make more informed decisions of performance changes against each dealer along with having more meaningful insight, like how the market is changing if we are seeing a change in the typical trend pattern against a high number of dealers.
+### Data Infrastructure & Tools
+The projects key tool will be RStudio, this is due to it being used for data analysis to import, access, transform and model data. This is what will be required to structure and combine various data sets that are only available within an excel output. The key challenge with using RStudio is that it will only be available to the key individual using this tool to refresh the data source to keep the dashboards up to date, this still has a manual process to it. RStudio is also slower than other programming language tools such as Python due to it taking up a lot of memory. One of the main advantages of using RStudio is that it is very user-friendly, making it more straightforward process to load many files as data to then write the code and manage the data sets. 
 
 
-### Key Objectives
-- Recording the current reporting manual process to replicate and match monthly figures.
--	Documenting previous monthly reports from the relevant stakeholders.
-- Extract, Transform, Create & Distribute the data fields required from the different data sources.
-- Structuring the data through RStudio. 
-- Creating various visualisations of the data through the main data tool – Tableau. 
-- Understanding how valuable this insight will be for the business in regard to financial gain but also being able to enhance the report in the future by applying more granular details within the data sources.
+### Data Engineering
+The data processing includes cleaning all values that is missing or duplicated, as there is a continuous data feed from premade reports in excel, this then has the same records within each file. It is crucial that the creation of the output file has the historical data but does not duplicate that data. It will also merge various other fields from other excel reports that are required, this will be done by a unique identifier within each of the reports to ensure it is merging them correctly. The ETL process (Extract, Transform, Load) from data being within excel to then using RStudio which will load into Tableau is creating a more automated process to have access to data which is accurate and complete.
+
+### Data Visualisation & Dashboard
+Creating an interactive and easy to use dashboard within the data tool Tableau, which provides meaningful insight and real-time business metrics. By using a tool like Tableau, it enables different stakeholders around the business to use for different purposes e.g. Marketing team to use to understand the performance of an incentive that has been applied to the main website. This tool also provides great visualisations that are created for each of those stakeholders to use daily and provide evidence to help make decisions and drive further engagement by making each dashboard interactive for non-technical users.
+
+### Data Analytics
+The main data analytics process used was linear regression for trend analysis, this was to showcase the advantage of various incentives on going within the business and if they were producing more sales, and if those sales were of high value. This would provide if those incentives brought through sales but of low value, which were not actually much of a result for the business with the cost of those incentives. The model would look positive to the business, seeing more sales produced daily but would highlight if it has produced more revenue as expected and if any other factors also played a significant role in the performance change.
 
 
-### Data Collection
-As some of the data extracts to create this dashboard are already within a data source created by myself, I am then able to re-use that data source within Tableau. There is one set report which is missing from the data source, this is the AR balance from our data tool – Sopra. Therefore, I needed to have this AR balance figure for both UK & IRL dealers, along with the IRL dealers having different currency (GBP & EUR). Not only was this a challenging factor as it will be 3 reports required, I also wanted to create a daily view which means I need to recreate history. It was agreed that I would need to gather the last 12 months of AR balances.
+### Results
+Visulisation dashboards were created within Tableau to provide all users meaning insights that were accurate and complete, enabling the dashboards to be easy to use to interactive daily. This provides valuable insight into the business that was not available previously, allowing them to make decisions easily and more time efficiently.
 
-As there was already a monthly snapshot of this created by Finance, I was able to find out the exact reports they were gathering this AR Balance and requested from Sopra an ETL file containing the ‘Day End Reports’ for UK – GBP, IRL – GBP, IRL-EUR. Once received via SFTP, I was able to add these into the primary data location linked to RStudio.
+
+### Conclusion
+By using this type of project approach to create Visulisation dashboards within Tableau, it has shown the business how useful this level of insight can be to provide predictive analytics. This will help to take the next steps in automating the process further by gaining ETL files from the premade report tools and pushing them into a cloud-based data warehouse. This will be more efficient in maintaining the large quantity of data required for the business and remove exporting from excel which minimizes many risks. 
 
 Example of the ‘Day End Report’ –
 ![image](assets/images/output.png)
 
-This report contains details of the dealers but also every vehicle that they purchase which counts towards their AR Balance figure.
-
-### Processing Data
-- Validating data quality through a data quality audit involving the two main data systems - Sopra and Salesforce would typically involve a systematic examination of the data stored within the systems, this would be determining which data records and elements are currently being used within the organisation from customer details to sales transactions.
-- Collecting the data involves extracting a number of pre-built reports from Sopra & Salesforce that includes all the relevant datasets to create the performance report required, along with any other relevant data for future reporting.
-- Analysing the data to understand its structure, quality, and completeness. This also helps with identifying patterns, anomalies and potential issues within the data that are not known.
-- Creating data cleansing processes identify any issues, this may involve correcting errors, deduplication and updating any outdated information within the systems.
-- Validating the data has been cleansed correctly to ensure it meets the quality standards by creating various checks and tests on the accuracy, completeness, and consistency of the data. This will involve comparing to the current report figures and liaising with the relevant stakeholders on the data figures being produced to align with what is expected.
-- Ensuring that the data flow created within the new ETL will process the data correctly and provide continuous monitoring of the data quality within the main systems.
-- Recommendation to stakeholders on improving data quality that is manually processed into the systems – Salesforce and Sopra to establish better data quality monitoring mechanisms.
-
-
-### Transform
-Transforming the data from the multiple extracted excel reports through scripting allows the data to be extracted and transformed by writing code in RStudio, this allows data collections to be mined for information. As for this project, I am going to be using premade excel report extracts which contain a variety of data fields, using RStudio allows me to alter the contents of each of those fields for the purposes of the report but to also structure the data which is a key benefit as this is the most fundamental point of transforming unusable data into usable data. With having full access to RStudio for this project, it allows me to have total control over its modification and security.
-
-### Data Analysis
-These various insights from the new data source are used to track performance from an overall business level to a dealer level. It will also be used to help develop a strategy for understanding where the key areas are with the utilisation figure changing periodically and how to target the correct areas. For example, this month in July-24 the utilisation figure is at its lowest level, but this is due to their being a large number of new accounts this month which have yet utilised their accounts. Meaning that we should see their AR balance increase which will also increase overall utilisation.
-Linear regression has been used for trend analysis to help understand the utilisation figures within various views, from an overall perspective, to identifying changes within any dealers that have had an increase in their credit limits. 
-
-
-### Results
-Here are some examples of how I have built the visualisations within Tableau –
-
-
-Utilisation Summary –
-
-### Future Work
-•	Receiving ETL files from Sopra & Salesforce that feeds into Azure (Cloud Data Platform) that can then automatically feed into Tableau to create the data processing element to become automated further and reduce manual extraction risk.
-•	Enhance the current data models further based off feedback from stakeholders on the latest version created, this could include segmentation on dealers and any incentives that are applied to set dealers to indicate financial impact.
-•	Creating granular levels of data insight allowing further analysis.
 
 
 
