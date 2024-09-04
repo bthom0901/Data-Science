@@ -14,7 +14,7 @@
   
 ![image](https://github.com/user-attachments/assets/223648e7-405d-432d-b639-ea0eb5541ae9)
 
-(assets/images/Cumulative Tracker.png)
+![image](assets/images/Cumulative Tracker.png)
 
 
 ## Projects
