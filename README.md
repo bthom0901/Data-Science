@@ -24,8 +24,6 @@ The data processing includes cleaning all values that is missing or duplicated, 
 
 **Link to RStudio Code** 
 
-![link](rstudio_script)
-
 ### Data Visualisation & Dashboard
 Creating an interactive and easy to use dashboard within the data tool Tableau, which provides meaningful insight and real-time business metrics. By using a tool like Tableau, it enables different stakeholders around the business to use for different purposes e.g. Marketing team to use to understand the performance of an incentive that has been applied to the main website. This tool also provides great visualisations that are created for each of those stakeholders to use daily and provide evidence to help make decisions and drive further engagement by making each dashboard interactive for non-technical users.
 
