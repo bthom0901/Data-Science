@@ -9,7 +9,7 @@
 
 # Tools & Applications
 
-![image](assets/images/cumulative_tracker.png)
+![image](assets/images/output.png)
 
 
 ## Data Science Project
@@ -40,7 +40,7 @@ As some of the data extracts to create this dashboard are already within a data 
 As there was already a monthly snapshot of this created by Finance, I was able to find out the exact reports they were gathering this AR Balance and requested from Sopra an ETL file containing the ‘Day End Reports’ for UK – GBP, IRL – GBP, IRL-EUR. Once received via SFTP, I was able to add these into the primary data location linked to RStudio.
 
 Example of the ‘Day End Report’ –
-
+![image](assets/images/output.png)
 
 This report contains details of the dealers but also every vehicle that they purchase which counts towards their AR Balance figure.
 
