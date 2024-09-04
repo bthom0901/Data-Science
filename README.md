@@ -10,7 +10,7 @@
 
 # URL image link
 
-![Image URL]{https://www.lennysnewsletter.com/p/linear-regression-and-correlation-analysis}
+![Image URL]{[https://www.lennysnewsletter.com/p/linear-regression-and-correlation-analysis](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644.png)}
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
