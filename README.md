@@ -9,10 +9,6 @@
 
 # Tools & Applications
 
-- Linear Regression
-  
-![image](https://github.com/user-attachments/assets/223648e7-405d-432d-b639-ea0eb5541ae9)
-
 ![image](assets/images/cumulative_tracker.png)
 
 
@@ -49,14 +45,33 @@ Example of the ‘Day End Report’ –
 This report contains details of the dealers but also every vehicle that they purchase which counts towards their AR Balance figure.
 
 ### Processing Data
-•	Validating data quality through a data quality audit involving the two main data systems - Sopra and Salesforce would typically involve a systematic examination of the data stored within the systems, this would be determining which data records and elements are currently being used within the organisation from customer details to sales transactions.
-•	Collecting the data involves extracting a number of pre-built reports from Sopra & Salesforce that includes all the relevant datasets to create the performance report required, along with any other relevant data for future reporting.
-•	Analysing the data to understand its structure, quality, and completeness. This also helps with identifying patterns, anomalies and potential issues within the data that are not known.
-•	Creating data cleansing processes identify any issues, this may involve correcting errors, deduplication and updating any outdated information within the systems.
-•	Validating the data has been cleansed correctly to ensure it meets the quality standards by creating various checks and tests on the accuracy, completeness, and consistency of the data. This will involve comparing to the current report figures and liaising with the relevant stakeholders on the data figures being produced to align with what is expected.
-•	Ensuring that the data flow created within the new ETL will process the data correctly and provide continuous monitoring of the data quality within the main systems.
-•	Recommendation to stakeholders on improving data quality that is manually processed into the systems – Salesforce and Sopra to establish better data quality monitoring mechanisms.
+- Validating data quality through a data quality audit involving the two main data systems - Sopra and Salesforce would typically involve a systematic examination of the data stored within the systems, this would be determining which data records and elements are currently being used within the organisation from customer details to sales transactions.
+- Collecting the data involves extracting a number of pre-built reports from Sopra & Salesforce that includes all the relevant datasets to create the performance report required, along with any other relevant data for future reporting.
+- Analysing the data to understand its structure, quality, and completeness. This also helps with identifying patterns, anomalies and potential issues within the data that are not known.
+- Creating data cleansing processes identify any issues, this may involve correcting errors, deduplication and updating any outdated information within the systems.
+- Validating the data has been cleansed correctly to ensure it meets the quality standards by creating various checks and tests on the accuracy, completeness, and consistency of the data. This will involve comparing to the current report figures and liaising with the relevant stakeholders on the data figures being produced to align with what is expected.
+- Ensuring that the data flow created within the new ETL will process the data correctly and provide continuous monitoring of the data quality within the main systems.
+- Recommendation to stakeholders on improving data quality that is manually processed into the systems – Salesforce and Sopra to establish better data quality monitoring mechanisms.
 
 
 ### Transform
 Transforming the data from the multiple extracted excel reports through scripting allows the data to be extracted and transformed by writing code in RStudio, this allows data collections to be mined for information. As for this project, I am going to be using premade excel report extracts which contain a variety of data fields, using RStudio allows me to alter the contents of each of those fields for the purposes of the report but to also structure the data which is a key benefit as this is the most fundamental point of transforming unusable data into usable data. With having full access to RStudio for this project, it allows me to have total control over its modification and security.
+
+### Data Analysis
+These various insights from the new data source are used to track performance from an overall business level to a dealer level. It will also be used to help develop a strategy for understanding where the key areas are with the utilisation figure changing periodically and how to target the correct areas. For example, this month in July-24 the utilisation figure is at its lowest level, but this is due to their being a large number of new accounts this month which have yet utilised their accounts. Meaning that we should see their AR balance increase which will also increase overall utilisation.
+Linear regression has been used for trend analysis to help understand the utilisation figures within various views, from an overall perspective, to identifying changes within any dealers that have had an increase in their credit limits. 
+
+
+### Results
+Here are some examples of how I have built the visualisations within Tableau –
+
+
+Utilisation Summary –
+
+### Future Work
+•	Receiving ETL files from Sopra & Salesforce that feeds into Azure (Cloud Data Platform) that can then automatically feed into Tableau to create the data processing element to become automated further and reduce manual extraction risk.
+•	Enhance the current data models further based off feedback from stakeholders on the latest version created, this could include segmentation on dealers and any incentives that are applied to set dealers to indicate financial impact.
+•	Creating granular levels of data insight allowing further analysis.
+
+
+
