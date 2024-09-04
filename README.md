@@ -49,7 +49,6 @@ Example of the ‘Day End Report’ –
 This report contains details of the dealers but also every vehicle that they purchase which counts towards their AR Balance figure.
 
 ### Processing Data
-
 •	Validating data quality through a data quality audit involving the two main data systems - Sopra and Salesforce would typically involve a systematic examination of the data stored within the systems, this would be determining which data records and elements are currently being used within the organisation from customer details to sales transactions.
 •	Collecting the data involves extracting a number of pre-built reports from Sopra & Salesforce that includes all the relevant datasets to create the performance report required, along with any other relevant data for future reporting.
 •	Analysing the data to understand its structure, quality, and completeness. This also helps with identifying patterns, anomalies and potential issues within the data that are not known.
@@ -57,3 +56,7 @@ This report contains details of the dealers but also every vehicle that they pur
 •	Validating the data has been cleansed correctly to ensure it meets the quality standards by creating various checks and tests on the accuracy, completeness, and consistency of the data. This will involve comparing to the current report figures and liaising with the relevant stakeholders on the data figures being produced to align with what is expected.
 •	Ensuring that the data flow created within the new ETL will process the data correctly and provide continuous monitoring of the data quality within the main systems.
 •	Recommendation to stakeholders on improving data quality that is manually processed into the systems – Salesforce and Sopra to establish better data quality monitoring mechanisms.
+
+
+### Transform
+Transforming the data from the multiple extracted excel reports through scripting allows the data to be extracted and transformed by writing code in RStudio, this allows data collections to be mined for information. As for this project, I am going to be using premade excel report extracts which contain a variety of data fields, using RStudio allows me to alter the contents of each of those fields for the purposes of the report but to also structure the data which is a key benefit as this is the most fundamental point of transforming unusable data into usable data. With having full access to RStudio for this project, it allows me to have total control over its modification and security.
