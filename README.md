@@ -22,7 +22,6 @@ The projects key tool will be RStudio, this is due to it being used for data ana
 ### Data Engineering
 The data processing includes cleaning all values that is missing or duplicated, as there is a continuous data feed from premade reports in excel, this then has the same records within each file. It is crucial that the creation of the output file has the historical data but does not duplicate that data. It will also merge various other fields from other excel reports that are required, this will be done by a unique identifier within each of the reports to ensure it is merging them correctly. The ETL process (Extract, Transform, Load) from data being within excel to then using RStudio which will load into Tableau is creating a more automated process to have access to data which is accurate and complete.
 
-**Link to RStudio Code** 
 
 ### Data Visualisation & Dashboard
 Creating an interactive and easy to use dashboard within the data tool Tableau, which provides meaningful insight and real-time business metrics. By using a tool like Tableau, it enables different stakeholders around the business to use for different purposes e.g. Marketing team to use to understand the performance of an incentive that has been applied to the main website. This tool also provides great visualisations that are created for each of those stakeholders to use daily and provide evidence to help make decisions and drive further engagement by making each dashboard interactive for non-technical users.
