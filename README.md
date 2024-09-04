@@ -7,10 +7,6 @@
 - Tableau
 - Excel
 
-# Tools & Applications
-
-![image](assets/images/output.png)
-
 
 ## Data Science Project
 ### Executive Summary
