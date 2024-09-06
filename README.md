@@ -32,6 +32,9 @@ The main data analytics process used was linear regression for trend analysis, t
 
 ### Results
 Visulisation dashboards were created within Tableau to provide all users meaning insights that were accurate and complete, enabling the dashboards to be easy to use to interactive daily. This provides valuable insight into the business that was not available previously, allowing them to make decisions easily and more time efficiently.
+Examples of Visulisation dashboards created -
+
+!image(
 
 
 ### Conclusion
