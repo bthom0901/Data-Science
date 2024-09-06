@@ -35,7 +35,8 @@ Visulisation dashboards were created within Tableau to provide all users meaning
 Examples of Visulisation dashboards created -
 
 ![image](assets/dashboard1.png)
-
+![image](assets/dashboard2.png)
+![image](assets/dashboard3.png)
 
 ### Conclusion
 By using this type of project approach to create Visulisation dashboards within Tableau, it has shown the business how useful this level of insight can be to provide predictive analytics. This will help to take the next steps in automating the process further by gaining ETL files from the premade report tools and pushing them into a cloud-based data warehouse. This will be more efficient in maintaining the large quantity of data required for the business and remove exporting from excel which minimizes many risks. 
