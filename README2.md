@@ -15,7 +15,6 @@ This project focuses on developing a robust data pipeline to create a comprehens
 The current process is highly manual, necessitating problem-solving to create an output file that will serve as a data source, consolidating information from various pre-made Excel reports. This new data source will be crucial for creating dashboards that enhance decision-making processes and influence sales strategies across the organization.
 
 ### Data Infrastructure & Tools
-[Data Infrastructure & Tools File](code/index.R)
 
 #### Primary Tool: RStudio
 RStudio has been chosen as the primary tool for this project due to its robust capabilities in data analysis, including importing, accessing, transforming, and modeling data. It is particularly well-suited for structuring and combining various datasets that are currently only available in Excel format.
@@ -30,6 +29,8 @@ RStudio has been chosen as the primary tool for this project due to its robust c
 - Potentially slower performance compared to alternatives like Python due to higher memory usage
 
 **Alternative Considered:** Python was considered as an alternative due to its faster performance, but RStudio was ultimately chosen for its user-friendliness and suitability for the specific tasks at hand.
+
+[Rstudio Code](code/index.R)
 
 ### Data Engineering
 
