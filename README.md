@@ -16,6 +16,8 @@ This new data source will be critical to the business as it will be used to crea
 
 
 ### Data Infrastructure & Tools
+[Data Infrastructure & Tools File](code/index.R)
+
 The projects key tool will be RStudio, this is due to it being used for data analysis to import, access, transform and model data. This is what will be required to structure and combine various data sets that are only available within an excel output. The key challenge with using RStudio is that it will only be available to the key individual using this tool to refresh the data source to keep the dashboards up to date, this still has a manual process to it. RStudio is also slower than other programming language tools such as Python due to it taking up a lot of memory. One of the main advantages of using RStudio is that it is very user-friendly, making it more straightforward process to load many files as data to then write the code and manage the data sets. 
 
 
