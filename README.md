@@ -1,49 +1,100 @@
 # Bethany Thomas-Smyth - Data Science Professional Practice
 
-#### Manual Extraction and Development of Pre-Made Reports to Migrate into Data Tool
+## Manual Extraction and Development of Pre-Made Reports to Migrate into Data Tool
 
-
-**Tools & Applications**
+### Tools & Applications
 - RStudio
 - Tableau
 - Excel
 
-
 ## Data Science Project
-### Executive Summary
-This project delves into the requirements and process to create a data source within Tableau to create key point analysis with data visualisations, these will be used around the business to make key decisions on performance and to align against forecast and budget figures. The current process is very manual which is why this project will require a few problem-solving tasks to create an output file which will feed to the data source from various premade reports in excel format.
-This new data source will be critical to the business as it will be used to create various dashboards which will help enhance key decisions and influence sale decisions.
 
+### Executive Summary
+This project focuses on developing a robust data pipeline to create a comprehensive data source within Tableau. The goal is to generate key point analyses and data visualizations that will be instrumental in driving business decisions, particularly in aligning performance metrics with forecast and budget figures. 
+
+The current process is highly manual, necessitating problem-solving to create an output file that will serve as a data source, consolidating information from various pre-made Excel reports. This new data source will be crucial for creating dashboards that enhance decision-making processes and influence sales strategies across the organization.
 
 ### Data Infrastructure & Tools
-The projects key tool will be RStudio, this is due to it being used for data analysis to import, access, transform and model data. This is what will be required to structure and combine various data sets that are only available within an excel output. The key challenge with using RStudio is that it will only be available to the key individual using this tool to refresh the data source to keep the dashboards up to date, this still has a manual process to it. RStudio is also slower than other programming language tools such as Python due to it taking up a lot of memory. One of the main advantages of using RStudio is that it is very user-friendly, making it more straightforward process to load many files as data to then write the code and manage the data sets. 
 
-[RStudio Code](code/index.R)
+#### Primary Tool: RStudio
+RStudio has been chosen as the primary tool for this project due to its robust capabilities in data analysis, including importing, accessing, transforming, and modeling data. It is particularly well-suited for structuring and combining various datasets that are currently only available in Excel format.
+
+**Advantages:**
+- User-friendly interface
+- Straightforward process for loading multiple files as data
+- Efficient code writing and data set management
+
+**Challenges:**
+- Limited to key individuals for data source refreshing
+- Potentially slower performance compared to alternatives like Python due to higher memory usage
+
+**Alternative Considered:** Python was considered as an alternative due to its faster performance, but RStudio was ultimately chosen for its user-friendliness and suitability for the specific tasks at hand.
+
+[Rstudio Code](code/index.R)
 
 ### Data Engineering
-The data processing includes cleaning all values that is missing or duplicated, as there is a continuous data feed from premade reports in excel, this then has the same records within each file. It is crucial that the creation of the output file has the historical data but does not duplicate that data. It will also merge various other fields from other excel reports that are required, this will be done by a unique identifier within each of the reports to ensure it is merging them correctly. The ETL process (Extract, Transform, Load) from data being within excel to then using RStudio which will load into Tableau is creating a more automated process to have access to data which is accurate and complete.
 
+#### ETL Process Overview
+1. **Extract:** Data is sourced from pre-made Excel reports.
+2. **Transform:** 
+   - Data cleaning to remove missing or duplicated values
+   - Merging of various fields from different Excel reports using unique identifiers
+   - Ensuring historical data is maintained without duplication
+3. **Load:** Processed data is loaded into Tableau for visualization and analysis
 
-### Data Visualisation & Dashboard
-Creating an interactive and easy to use dashboard within the data tool Tableau, which provides meaningful insight and real-time business metrics. By using a tool like Tableau, it enables different stakeholders around the business to use for different purposes e.g. Marketing team to use to understand the performance of an incentive that has been applied to the main website. This tool also provides great visualisations that are created for each of those stakeholders to use daily and provide evidence to help make decisions and drive further engagement by making each dashboard interactive for non-technical users.
+This ETL process marks a significant step towards automation, ensuring access to accurate and complete data for analysis.
+
+### Data Visualization & Dashboard
+
+Tableau has been selected as the platform for creating interactive and user-friendly dashboards. These dashboards will provide:
+
+- Meaningful insights
+- Real-time business metrics
+- Tailored visualizations for different stakeholders (e.g., Marketing team)
+
+**Key Features:**
+- Interactive elements for non-technical users
+- Customizable views for various business needs
+- Real-time data updates (pending full automation)
 
 ### Data Analytics
-The main data analytics process used was linear regression for trend analysis, this was to showcase the advantage of various incentives on going within the business and if they were producing more sales, and if those sales were of high value. This would provide if those incentives brought through sales but of low value, which were not actually much of a result for the business with the cost of those incentives. The model would look positive to the business, seeing more sales produced daily but would highlight if it has produced more revenue as expected and if any other factors also played a significant role in the performance change.
 
+#### Primary Analytical Method: Linear Regression for Trend Analysis
+
+**Objective:** To evaluate the effectiveness of various business incentives on sales performance.
+
+**Metrics Analyzed:**
+- Sales volume
+- Sale value
+- Revenue impact
+
+**Key Insights:**
+- Correlation between incentives and sales volume
+- Impact on overall revenue
+- Identification of other significant factors affecting performance
+
+This analysis allows for a nuanced understanding of incentive effectiveness, highlighting cases where increased sales might not necessarily translate to proportional revenue growth.
 
 ### Results
-Visulisation dashboards were created within Tableau to provide all users meaning insights that were accurate and complete, enabling the dashboards to be easy to use to interactive daily. This provides valuable insight into the business that was not available previously, allowing them to make decisions easily and more time efficiently.
-Examples of Visulisation dashboards created -
 
-![image](assets/dashboard1.png)
-![image](assets/dashboard2.png)
-![image](assets/dashboard3.png)
+The implementation of Tableau dashboards has significantly enhanced the business's analytical capabilities:
 
-### Conclusion
-By using this type of project approach to create Visulisation dashboards within Tableau, it has shown the business how useful this level of insight can be to provide predictive analytics. This will help to take the next steps in automating the process further by gaining ETL files from the premade report tools and pushing them into a cloud-based data warehouse. This will be more efficient in maintaining the large quantity of data required for the business and remove exporting from excel which minimizes many risks. 
+1. **Accuracy and Completeness:** Dashboards now provide reliable, comprehensive data.
+2. **Accessibility:** Easy-to-use interfaces allow for daily interaction by various teams.
+3. **Time Efficiency:** Quicker access to insights facilitates faster decision-making.
 
+#### Sample Visualizations
+![Dashboard 1](assets/dashboard1.png)
+![Dashboard 2](assets/dashboard2.png)
+![Dashboard 3](assets/dashboard3.png)
 
+### Conclusion and Future Directions
 
+The success of this project in creating valuable Tableau visualizations has demonstrated the immense potential of advanced data analytics in our business operations. Moving forward, we recommend:
 
+1. **Further Automation:** Transition from Excel-based reports to direct ETL files.
+2. **Cloud Integration:** Implement a cloud-based data warehouse for more efficient data management.
+3. **Expanded Analytics:** Explore more advanced predictive analytics models.
+4. **Training and Adoption:** Develop a company-wide program to maximize the use of these new tools.
 
-
+These next steps will not only streamline our data processes but also minimize risks associated with manual data handling, setting the stage for more sophisticated and impactful business intelligence capabilities.
